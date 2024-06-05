@@ -16,6 +16,8 @@ public class UserAccountManager : MonoBehaviour
 
     public static UnityEvent<string> OnCreateAccounntFailed = new UnityEvent<string>();
 
+    public static UnityEvent<string> OnNicknameRetrieved = new UnityEvent<string>();
+
     private void Awake()
     {
         Instance = this;
@@ -61,6 +63,29 @@ public class UserAccountManager : MonoBehaviour
             {
                 Debug.Log($"Unsuccsefil Account Login: {userName} \n {error.ErrorMessage}");
                 OnSignInFailed.Invoke(error.ErrorMessage);
+            }
+        );
+    }
+
+    private void GetNickname(string playFabId)
+    {
+        PlayFabClientAPI.GetPlayerProfile(
+            new GetPlayerProfileRequest()
+            {
+                PlayFabId = playFabId,
+                ProfileConstraints = new PlayerProfileViewConstraints()
+                {
+                    ShowDisplayName = true
+                }
+            },
+            result =>
+            {
+                string nickname = result.PlayerProfile.DisplayName;
+                OnNicknameRetrieved.Invoke(nickname);
+            },
+            error =>
+            {
+                Debug.LogError($"Failed to retrieve nickname: {error.ErrorMessage}");
             }
         );
     }
