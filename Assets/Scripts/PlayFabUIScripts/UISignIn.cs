@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UISignIn : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class UISignIn : MonoBehaviour
     void OnSignInSuccess()
     {
         canvas.enabled = false;
+        SceneManager.LoadScene("Photon");
     }
 
     public void UpdateUsername(string _username)

@@ -11,9 +11,7 @@ using UnityEngine.UIElements;
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] string region;
-    [SerializeField] string nickName;
-
-    [SerializeField] TMP_InputField RoomName;
+    string nickName = PhotonNetwork.NickName;
 
     [SerializeField] Transform content;
     [SerializeField] ListItem itemPrefab;
@@ -24,6 +22,11 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.ConnectUsingSettings();
         PhotonNetwork.ConnectToRegion(region);
+    }
+
+    private void OnNicknameRetrieved(string nickName)
+    {
+        PhotonNetwork.NickName = nickName;
     }
 
     public override void OnConnectedToMaster()
@@ -49,61 +52,64 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         Debug.Log("Ви відключені від сервера!!!");
     }
 
-    public void CreateRoomButton()
+    public void PlayButton()
     {
-        if (!PhotonNetwork.IsConnected)
+        if (!PhotonNetwork.IsConnected) 
         {
-            return;
+            return; 
         }
+        PhotonNetwork.JoinRandomRoom();
+    }
 
+    public override void OnJoinRandomFailed(short returnCode, string message)
+    {
+        Debug.Log("Не вдалося приєднатися до випадкової кімнати, створюю нову.");
+        CreateRoom();
+    }
+
+    public void CreateRoom()
+    {
+        string roomName = "Room_" + Random.Range(0, 1000); 
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 2;
-        PhotonNetwork.CreateRoom(RoomName.text, roomOptions, TypedLobby.Default);
-        PhotonNetwork.LoadLevel("game_scene");
+        PhotonNetwork.CreateRoom(roomName, roomOptions, TypedLobby.Default);
     }
 
     public override void OnCreatedRoom()
     {
         Debug.Log("Кімната створена імя кімнати:" + PhotonNetwork.CurrentRoom.Name);
+        PhotonNetwork.LoadLevel("game_scene");
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
-        Debug.Log("Не вдалося створити кмінату!!!");
+        Debug.Log("Не вдалося створити кмінату!!!" + message);
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
         foreach(RoomInfo info in  roomList)
         {
-            for(int i = 0; i < allRoomsInfo.Count; i++)
+            if (info.RemovedFromList)
             {
-                if (allRoomsInfo[i].masterClientId == info.masterClientId)
-                    return;
+                allRoomsInfo.Remove(info);
             }
-            ListItem listItem = Instantiate(itemPrefab, content);
-            if(listItem != null)
+            else
             {
-                listItem.SetInfo(info);
                 allRoomsInfo.Add(info);
             }
-            
         }
     }
 
     public override void OnJoinedRoom()
     {
+        Debug.Log("Приєдналися до кімнати: " + PhotonNetwork.CurrentRoom.Name);
         PhotonNetwork.LoadLevel("game_scene");
     }
 
     public void JoinRandRoomButton()
     {
         PhotonNetwork.JoinRandomRoom();
-    }
-
-    public void JoinButton()
-    {
-        PhotonNetwork.JoinRoom(RoomName.text);
     }
 
     public void LeaveButton()
@@ -113,7 +119,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     public override void OnLeftRoom()
     {
-        PhotonNetwork.LoadLevel("Photon");
+        PhotonNetwork.LoadLevel("Menu");
     }
 
 }
