@@ -11,11 +11,8 @@ public class UserAccountManager : MonoBehaviour
     public static UserAccountManager Instance;
 
     public static UnityEvent OnSignInSuccess = new UnityEvent();
-
     public static UnityEvent<string> OnSignInFailed = new UnityEvent<string>();
-
-    public static UnityEvent<string> OnCreateAccounntFailed = new UnityEvent<string>();
-
+    public static UnityEvent<string> OnCreateAccountFailed = new UnityEvent<string>();
     public static UnityEvent<string> OnNicknameRetrieved = new UnityEvent<string>();
 
     private void Awake()
@@ -31,17 +28,17 @@ public class UserAccountManager : MonoBehaviour
                 Username = userName,
                 Email = emailAddress,
                 Password = password
-
             },
             response =>
             {
-                Debug.Log($"Succsefil Account Creation: {userName}, {emailAddress}");
+                Debug.Log($"Успішне створення облікового запису: {userName}, {emailAddress}");
+                UpdateDisplayName(userName, response.PlayFabId); // Додано оновлення нікнейму
                 SignIn(userName, password);
             },
             error =>
             {
-                Debug.Log($"Succsefil Account Creation: {userName}, {emailAddress} \n {error.ErrorMessage}");
-                OnCreateAccounntFailed.Invoke(error.ErrorMessage);
+                Debug.Log($"Не вдалося створити обліковий запис: {userName}, {emailAddress} \n {error.ErrorMessage}");
+                OnCreateAccountFailed.Invoke(error.ErrorMessage);
             }
         );
     }
@@ -56,38 +53,50 @@ public class UserAccountManager : MonoBehaviour
             },
             response =>
             {
-                Debug.Log($"Succsefil Account Login: {userName}");
+                Debug.Log($"Успішний вхід в обліковий запис: {userName}");
+                GetUserDisplayName(response);
                 OnSignInSuccess.Invoke();
             },
             error =>
             {
-                Debug.Log($"Unsuccsefil Account Login: {userName} \n {error.ErrorMessage}");
+                Debug.Log($"Неуспішний вхід в обліковий запис: {userName} \n {error.ErrorMessage}");
                 OnSignInFailed.Invoke(error.ErrorMessage);
             }
         );
     }
 
-    private void GetNickname(string playFabId)
+    private void GetUserDisplayName(LoginResult result)
     {
-        PlayFabClientAPI.GetPlayerProfile(
-            new GetPlayerProfileRequest()
+        PlayFabClientAPI.GetPlayerProfile(new GetPlayerProfileRequest
+        {
+            PlayFabId = result.PlayFabId,
+            ProfileConstraints = new PlayerProfileViewConstraints
             {
-                PlayFabId = playFabId,
-                ProfileConstraints = new PlayerProfileViewConstraints()
-                {
-                    ShowDisplayName = true
-                }
-            },
-            result =>
-            {
-                string nickname = result.PlayerProfile.DisplayName;
-                OnNicknameRetrieved.Invoke(nickname);
-            },
-            error =>
-            {
-                Debug.LogError($"Failed to retrieve nickname: {error.ErrorMessage}");
+                ShowDisplayName = true
             }
-        );
+        }, profileResult =>
+        {
+            string displayName = profileResult.PlayerProfile?.DisplayName ?? "User";
+            Debug.Log($"Отримано нікнейм з PlayFab: {displayName}");
+            OnNicknameRetrieved.Invoke(displayName);
+        }, error =>
+        {
+            Debug.LogError($"Не вдалося отримати нікнейм: {error.ErrorMessage}");
+            OnNicknameRetrieved.Invoke("User");
+        });
     }
 
+    private void UpdateDisplayName(string userName, string playFabId)
+    {
+        PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest
+        {
+            DisplayName = userName
+        }, result =>
+        {
+            Debug.Log($"Нікнейм оновлено: {result.DisplayName}");
+        }, error =>
+        {
+            Debug.LogError($"Не вдалося оновити нікнейм: {error.ErrorMessage}");
+        });
+    }
 }
