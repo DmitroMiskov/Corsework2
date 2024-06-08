@@ -20,25 +20,32 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        Debug.Log("Підключення до Photon...");
         PhotonNetwork.ConnectUsingSettings();
         PhotonNetwork.ConnectToRegion(region);
+        UserAccountManager.OnNicknameRetrieved.AddListener(OnNicknameRetrieved);
     }
 
-    private void OnNicknameRetrieved(string nickName)
+    private void OnNicknameRetrieved(string name)
     {
+        nickName = name;
         PhotonNetwork.NickName = nickName;
+        Debug.Log("Псевдонім Photon встановлено: " + nickName);
+        ConnectToPhoton();
+    }
+
+    void ConnectToPhoton()
+    {
+        
     }
 
     public override void OnConnectedToMaster()
     {
         Debug.Log("Ви підключені до: " + PhotonNetwork.CloudRegion);
-        if(nickName == "")
+        if(string.IsNullOrEmpty(PhotonNetwork.NickName))
         {
             PhotonNetwork.NickName = "User";
-        }
-        else
-        {
-            PhotonNetwork.NickName = nickName;
+            Debug.Log("Псевдонім Photon був порожнім, встановлено за замовчуванням: User");
         }
 
         if (!PhotonNetwork.InLobby)
