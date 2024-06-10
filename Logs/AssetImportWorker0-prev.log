@@ -15,7 +15,7 @@ D:/Virtual technologies/Corsework/Corsework2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59759
+50114
 Successfully changed project path to: D:/Virtual technologies/Corsework/Corsework2
 D:/Virtual technologies/Corsework/Corsework2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Virtual technologies/Corsework/Corsework2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13580] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2011849001 [EditorId] 2011849001 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V95M2N6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10956] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3354055591 [EditorId] 3354055591 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V95M2N6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13580] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2011849001 [EditorId] 2011849001 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V95M2N6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10956] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3354055591 [EditorId] 3354055591 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V95M2N6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 5845.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 21.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 1.051722 seconds.
-- Loaded All Assemblies, in 13.899 seconds
+Registered in 0.026855 seconds.
+- Loaded All Assemblies, in  0.800 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 710 ms
+Android Extension - Scanning For ADB Devices 471 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.716 seconds
-Domain Reload Profiling: 15611ms
-	BeginReloadAssembly (9285ms)
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (807ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (67ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (1167ms)
-	LoadAllAssembliesAndSetupDomain (2614ms)
-		LoadAssemblies (9282ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (217ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2609ms)
-			TypeCache.Refresh (2606ms)
-				TypeCache.ScanAssembly (2088ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (312ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1717ms)
+	FinalizeReload (1152ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1585ms)
+		SetupLoadedEditorAssemblies (1030ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1179ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (726ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (276ms)
-			ProcessInitializeOnLoadMethodAttributes (117ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 15611ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 14.786 seconds
-Refreshing native plugins compatible for Editor in 7.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.088 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.276 seconds
-Domain Reload Profiling: 17056ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  1.293 seconds
+Domain Reload Profiling: 2378ms
+	BeginReloadAssembly (226ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (14259ms)
-		LoadAssemblies (12425ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (711ms)
+		LoadAssemblies (478ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2025ms)
-			TypeCache.Refresh (1967ms)
-				TypeCache.ScanAssembly (1826ms)
-			ScanForSourceGeneratedMonoScriptInfo (43ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2277ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (295ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1294ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1885ms)
+		SetupLoadedEditorAssemblies (1028ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (65ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (1582ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (839ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (89.3 KB). Loaded Objects now: 3954.
-Memory consumption went from 140.3 MB to 140.2 MB.
-Total: 8.975500 ms (FindLiveObjects: 0.733000 ms CreateObjectMapping: 0.707900 ms MarkObjects: 7.220000 ms  DeleteObjects: 0.312000 ms)
+Unloading 49 unused Assets / (89.4 KB). Loaded Objects now: 3954.
+Memory consumption went from 140.2 MB to 140.1 MB.
+Total: 5.560400 ms (FindLiveObjects: 0.483300 ms CreateObjectMapping: 0.395800 ms MarkObjects: 4.424100 ms  DeleteObjects: 0.255200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,25 +187,500 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 92384.496443 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(d742351127f004b43b054a6c566818b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(d742351127f004b43b054a6c566818b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9716a982b6abd7fa6e6539f9d8a8199f') in 0.034017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 35024.801822 seconds.
-  path: Assets/Scripts/PlayFabUIScripts/UserAccountManager.cs
-  artifactKey: Guid(62bc4243a97cf6b41b6ecbfb12ffbc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayFabUIScripts/UserAccountManager.cs using Guid(62bc4243a97cf6b41b6ecbfb12ffbc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017ca6af696a167025bcf3405e7aadd0') in 0.004968 seconds
+  Time since last request: 4124.632810 seconds.
+  path: Assets/Bush
+  artifactKey: Guid(059b4d3c514952b4c88920f69ff3a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bush using Guid(059b4d3c514952b4c88920f69ff3a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06123e3798647c42b0a92cfe28bb3258') in 0.003228 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1013.769307 seconds.
-  path: Assets/Scripts/PlayFabUIScripts/UserAccountManager.cs
-  artifactKey: Guid(62bc4243a97cf6b41b6ecbfb12ffbc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayFabUIScripts/UserAccountManager.cs using Guid(62bc4243a97cf6b41b6ecbfb12ffbc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e147b70647752c591e51ceb6842aac') in 0.005678 seconds
+  Time since last request: 10.144937 seconds.
+  path: Assets/Bush/Bush.fbx
+  artifactKey: Guid(efb968a9a353e984d93197dbc1a2fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bush/Bush.fbx using Guid(efb968a9a353e984d93197dbc1a2fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900315578a4feb515cea2e13b88624fa') in 0.302206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 58.240031 seconds.
+  path: Assets/Bush/Bushes.jpg
+  artifactKey: Guid(b40e29a5bb610224f9fcbba18a5e1c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bush/Bushes.jpg using Guid(b40e29a5bb610224f9fcbba18a5e1c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b3960b731befe2f81ceca4e2e54ad9') in 0.079027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.538 seconds
+Refreshing native plugins compatible for Editor in 8.93 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 27.412 seconds
+Domain Reload Profiling: 33943ms
+	BeginReloadAssembly (515ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (5795ms)
+		LoadAssemblies (5949ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (27414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1977ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (1582ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 9.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3475 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (62.3 KB). Loaded Objects now: 4005.
+Memory consumption went from 137.5 MB to 137.4 MB.
+Total: 16.307500 ms (FindLiveObjects: 0.963800 ms CreateObjectMapping: 1.091700 ms MarkObjects: 13.927400 ms  DeleteObjects: 0.320300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9407.710858 seconds.
+  path: Assets/BiteMe Games/Chinese Music/Music/Lotus Pond - Loop.wav
+  artifactKey: Guid(d2cdffb30f76f2f4fa87c59ac3284bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiteMe Games/Chinese Music/Music/Lotus Pond - Loop.wav using Guid(d2cdffb30f76f2f4fa87c59ac3284bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded44bd26a6ae79f8ff04c84df7e9d6b') in 0.692077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/BiteMe Games/Chinese Music/Music/Lotus Pond.wav
+  artifactKey: Guid(98268bf8dd1e106498a9c2a45c958d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiteMe Games/Chinese Music/Music/Lotus Pond.wav using Guid(98268bf8dd1e106498a9c2a45c958d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b1c2cf73a51797bbb3e92f808639bf') in 0.576463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/BiteMe Games/Chinese Music/Music
+  artifactKey: Guid(2430991b369fe4d4a81e50674e21ce17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiteMe Games/Chinese Music/Music using Guid(2430991b369fe4d4a81e50674e21ce17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53d030d309a6b55e84dda1d9625cbda') in 0.001059 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 268.006097 seconds.
+  path: Assets/RPG Starter Pack III/Adventurer's Anthem
+  artifactKey: Guid(28c022c06a20bdb4c8cbcc4c8960feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Adventurer's Anthem using Guid(28c022c06a20bdb4c8cbcc4c8960feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2465d0a9c23dc3ab319fa075ff85c5d') in 0.001498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.130789 seconds.
+  path: Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[FadeOut].wav
+  artifactKey: Guid(fe6558d745c140544a62957a1776cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[FadeOut].wav using Guid(fe6558d745c140544a62957a1776cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224afbc2681d21cfd22a21e69dfce6e3') in 0.042507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[Light].wav
+  artifactKey: Guid(cd3f2a2a2e7aa8e408f82c795e4cf2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[Light].wav using Guid(cd3f2a2a2e7aa8e408f82c795e4cf2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9889b51dffd7d88e73beb2ebecf4aaa0') in 0.036079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.578668 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[FadeOut].wav
+  artifactKey: Guid(6b1eea452fda7644e9e93d3d6fd7e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[FadeOut].wav using Guid(6b1eea452fda7644e9e93d3d6fd7e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aad8e2fdc10454d05c4e1bd42c46ed') in 0.053235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Medium].wav
+  artifactKey: Guid(d8202db8bb4ad404f94e98e8e676cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Medium].wav using Guid(d8202db8bb4ad404f94e98e8e676cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6b48ed1f514bcba66d1ccc7d769ff7') in 0.034416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.690817 seconds.
+  path: Assets/RPG Starter Pack III/Prelude to War/Prelude_to_War_[FadeOut].wav
+  artifactKey: Guid(ae36037555912354396a9707344c4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Prelude to War/Prelude_to_War_[FadeOut].wav using Guid(ae36037555912354396a9707344c4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc01135e0c61aea7302e78c2c0d9794') in 0.044305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/RPG Starter Pack III/Prelude to War/Prelude_to_War_[Light].wav
+  artifactKey: Guid(8007d12954564e046b42292e7b9cd845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Prelude to War/Prelude_to_War_[Light].wav using Guid(8007d12954564e046b42292e7b9cd845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39123df792dd9d9bd9acb0f114750f') in 0.032921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.074634 seconds.
+  path: Assets/RPG Starter Pack III/Serenade of Dreams/Serenade_of_Dreams_[FadeOut].wav
+  artifactKey: Guid(f1e4a1a6eb6f09b4d91c745abd317959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Serenade of Dreams/Serenade_of_Dreams_[FadeOut].wav using Guid(f1e4a1a6eb6f09b4d91c745abd317959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a37bdc72f7b829b1a6736b60b6cb397') in 0.037661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/RPG Starter Pack III/Serenade of Dreams/Serenade_of_Dreams_[Light].wav
+  artifactKey: Guid(3ba06d4977074b146a86527675f8ca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Serenade of Dreams/Serenade_of_Dreams_[Light].wav using Guid(3ba06d4977074b146a86527675f8ca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1f024a6da0c9e09996f9315c90866') in 0.037208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.449966 seconds.
+  path: Assets/RPG Starter Pack III/Titan March/Titan_March_[FadeOut].wav
+  artifactKey: Guid(63f5912c876b5bd48a1977ec81d0b323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Titan March/Titan_March_[FadeOut].wav using Guid(63f5912c876b5bd48a1977ec81d0b323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770afa37a3e1cdee673f3dab844828e8') in 0.040038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RPG Starter Pack III/Titan March/Titan_March_[Medium].wav
+  artifactKey: Guid(00770a2e329cae4418a2c4a722876283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Titan March/Titan_March_[Medium].wav using Guid(00770a2e329cae4418a2c4a722876283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab769ed3c39e15f331f3ec70b115031') in 0.030879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 624.688316 seconds.
+  path: Assets/Action RPG Music 1.6/BGM00hero.wav
+  artifactKey: Guid(b3e7e068f61b05b43b8defa9dcbbe5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM00hero.wav using Guid(b3e7e068f61b05b43b8defa9dcbbe5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317f34a308986505fea3d088a9e936a3') in 0.501685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Action RPG Music 1.6/BGM07battle1.wav
+  artifactKey: Guid(031bbb98a7e1a3c4684afe0c45789da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM07battle1.wav using Guid(031bbb98a7e1a3c4684afe0c45789da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3333e4c577be0660701076f8c3e88c0e') in 0.046958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Action RPG Music 1.6/BGM05castle1.wav
+  artifactKey: Guid(7f0b0878750742e4fb9edde53f091d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM05castle1.wav using Guid(7f0b0878750742e4fb9edde53f091d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159bb600efea4077db2864c509969531') in 0.037682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Action RPG Music 1.6/BGM03prairie.wav
+  artifactKey: Guid(4f692dca7018be645a24a54d3c8689f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM03prairie.wav using Guid(4f692dca7018be645a24a54d3c8689f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb4763929baf50fb950d586d4184478') in 0.057259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Action RPG Music 1.6/BGM07battle2.wav
+  artifactKey: Guid(d4574d65a4f31f54e997ecccc7ffb44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM07battle2.wav using Guid(d4574d65a4f31f54e997ecccc7ffb44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dcf50008b76129f4d807d2fe853ab4') in 0.044029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.283434 seconds.
+  path: Assets/Action RPG Music 1.6/BGM08boss1.wav
+  artifactKey: Guid(5de51a8b81ff4524685def47929a124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM08boss1.wav using Guid(5de51a8b81ff4524685def47929a124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47575742a48566fc271706984ac3de2e') in 0.073444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Action RPG Music 1.6/BGM16jungle.wav
+  artifactKey: Guid(9ba1b2d2ed84b154b97acbae04d65e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM16jungle.wav using Guid(9ba1b2d2ed84b154b97acbae04d65e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813d25faa2a434c2ec2b485168ae5ee6') in 0.048726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Action RPG Music 1.6/BGM13dungeon2.wav
+  artifactKey: Guid(d971a2d173b1d324199cc4b621e3ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM13dungeon2.wav using Guid(d971a2d173b1d324199cc4b621e3ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e65756c919de94b6508adb00397dad4') in 0.044086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Action RPG Music 1.6/BGM18bar1.wav
+  artifactKey: Guid(a63c91aebef4d6c44988e319979defb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM18bar1.wav using Guid(a63c91aebef4d6c44988e319979defb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c628d530d3e04a5b57eefa7b45cb6303') in 0.048218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Action RPG Music 1.6/BGM11bazaar.wav
+  artifactKey: Guid(4ca2072c5e4abf54c8db75703111377d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM11bazaar.wav using Guid(4ca2072c5e4abf54c8db75703111377d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719bcd304b6f6ea504b5863a6ca4a446') in 0.044275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Action RPG Music 1.6/MS02gameover1NL.wav
+  artifactKey: Guid(4badc223bf553f54e92b22984efe9199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS02gameover1NL.wav using Guid(4badc223bf553f54e92b22984efe9199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c490e4da0d59517d81dbf2f49daf9') in 0.026328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Action RPG Music 1.6/MS01triumph2NL.wav
+  artifactKey: Guid(db6d136f2edd9a34b86e9894645fe7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS01triumph2NL.wav using Guid(db6d136f2edd9a34b86e9894645fe7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1842ea2a2c035b5a98c5afd69594657') in 0.022585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Action RPG Music 1.6/MS02gameover4NL.wav
+  artifactKey: Guid(594706964de9d15478c86a383b8b2eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS02gameover4NL.wav using Guid(594706964de9d15478c86a383b8b2eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d497b4e869861837b438ac4fbe907bb') in 0.024689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Action RPG Music 1.6/MS02gameover2V2NL.wav
+  artifactKey: Guid(517ffb22a257eee4f9ea126c6132a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS02gameover2V2NL.wav using Guid(517ffb22a257eee4f9ea126c6132a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3bce3bcd5aab6257a6b4586e5b11fb') in 0.028019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Action RPG Music 1.6/MS06door2NL.wav
+  artifactKey: Guid(91bf8d5f4475d1e45a4e728030a17027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS06door2NL.wav using Guid(91bf8d5f4475d1e45a4e728030a17027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9189caa787daba4eb2c9256e7013f9e4') in 0.031245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Action RPG Music 1.6/MS02gameover3NL.wav
+  artifactKey: Guid(10091c536829a934e828a15342d8ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS02gameover3NL.wav using Guid(10091c536829a934e828a15342d8ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e431b549022bb9bf7db29533095cbf') in 0.029517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Action RPG Music 1.6/MS02gameover2V1NL.wav
+  artifactKey: Guid(49191071449c1324fa8bf62bd9ebdb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS02gameover2V1NL.wav using Guid(49191071449c1324fa8bf62bd9ebdb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb8912086c474be374fb6ac2e8d930') in 0.027765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Action RPG Music 1.6/MS01triumph1NL.wav
+  artifactKey: Guid(192c872109c705046b9dda311afba027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS01triumph1NL.wav using Guid(192c872109c705046b9dda311afba027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8da655e25ba53947cf2f1d3bf8c0ede') in 0.025513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.347888 seconds.
+  path: Assets/Action RPG Music 1.6/MS08levelup1NL.wav
+  artifactKey: Guid(025760f0918b2234e88d2a723fca8505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS08levelup1NL.wav using Guid(025760f0918b2234e88d2a723fca8505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115ee92b44b920396bf246cc5f1b79e9') in 0.057916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Action RPG Music 1.6/MS09short3NL.wav
+  artifactKey: Guid(7a0e3f923cdbaea4a8ffb21dd5fbfe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/MS09short3NL.wav using Guid(7a0e3f923cdbaea4a8ffb21dd5fbfe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3883c7afa9fca17edce6d122cff1a6') in 0.033404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.397520 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks
+  artifactKey: Guid(edde8a2d2e5ad6b41bb6353290109448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks using Guid(edde8a2d2e5ad6b41bb6353290109448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eda30d65c5960151cc1b2971285bf34') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046380 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM04town7.wav
+  artifactKey: Guid(8b7b8afc87c17634dace89d67e3b7369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM04town7.wav using Guid(8b7b8afc87c17634dace89d67e3b7369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9f355e686eb101d4f9aac38590ea84') in 0.053813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM06sail1.wav
+  artifactKey: Guid(e14d6af9478116741bad926ef353bcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM06sail1.wav using Guid(e14d6af9478116741bad926ef353bcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a7e99afa87720958dc87a7f66a634') in 0.046343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest2.wav
+  artifactKey: Guid(310ae1320b45f42479858e0e28a795f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest2.wav using Guid(310ae1320b45f42479858e0e28a795f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aad2e426a091ead8574698a5d2a45ef') in 0.047231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM07battle6.wav
+  artifactKey: Guid(83b88b00d73f54346864926389de4216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM07battle6.wav using Guid(83b88b00d73f54346864926389de4216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6e660d071302e7ad88fbe8eb4aacff') in 0.047294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest5.wav
+  artifactKey: Guid(7afac8788fdea814390940ebaaa7ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest5.wav using Guid(7afac8788fdea814390940ebaaa7ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e35d921e47c40acea7a227bcf1c70d') in 0.044866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM06adventure3.wav
+  artifactKey: Guid(ac5ec6b570bc837498f03e21495f72a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM06adventure3.wav using Guid(ac5ec6b570bc837498f03e21495f72a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126b21c56497748c6b27f89deb73a106') in 0.049399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM06adventure2.wav
+  artifactKey: Guid(d2ce5310591fac8488e99673aa757581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM06adventure2.wav using Guid(d2ce5310591fac8488e99673aa757581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793f5ce618a2e35e70d556b425a28e73') in 0.050662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest6.wav
+  artifactKey: Guid(da433ff66fcd4c049b3ad19c4638142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest6.wav using Guid(da433ff66fcd4c049b3ad19c4638142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7816d16371af91a8e6f779a2618f37c2') in 0.039701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest1.wav
+  artifactKey: Guid(4ee446310c2f4b5459af0790d49635b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM16forest1.wav using Guid(4ee446310c2f4b5459af0790d49635b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3681a4f8549f5156fdb7c9029cc81f50') in 0.048253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 684.511609 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM17island1v1.wav
+  artifactKey: Guid(2df868c9f8e76e247965ae0fd30a9ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM17island1v1.wav using Guid(2df868c9f8e76e247965ae0fd30a9ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185383ca07a5f471e6b779b77c6ef9f9') in 0.095319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDMS02gameover6NL.wav
+  artifactKey: Guid(2fd847cf261df82458098aedb7d7e6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDMS02gameover6NL.wav using Guid(2fd847cf261df82458098aedb7d7e6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75672a6d655de705ee5097b1f5da1aee') in 0.044042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM18store1.wav
+  artifactKey: Guid(e48927cb673bdbd4f8a28105ba61c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDBGM18store1.wav using Guid(e48927cb673bdbd4f8a28105ba61c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d7c833226f1a68433e06a5a06577c9') in 0.048279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDMS02gameover5NL.wav
+  artifactKey: Guid(c254d971bfe2c024597d4571eef14184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDMS02gameover5NL.wav using Guid(c254d971bfe2c024597d4571eef14184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c383d6270804a572b506bdec8d785e94') in 0.024498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDMS01triumph5NL.wav
+  artifactKey: Guid(90f464e328979a6439d2e70314c3851c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDMS01triumph5NL.wav using Guid(90f464e328979a6439d2e70314c3851c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbbe198dfc175a869df96988d001bc1') in 0.026425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDMS08levelup2NL.wav
+  artifactKey: Guid(c1702cffa86d9874596f653281e61bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDMS08levelup2NL.wav using Guid(c1702cffa86d9874596f653281e61bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e797bcd6c3fed4235630b66b94641') in 0.028217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Action RPG Music 1.6/Outdated tracks/OLDMS01triumph4NL.wav
+  artifactKey: Guid(06bbe4a4fd663234792f408453838351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/Outdated tracks/OLDMS01triumph4NL.wav using Guid(06bbe4a4fd663234792f408453838351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b092297bfa04fe7dfee1d5d39c01cd1a') in 0.023839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

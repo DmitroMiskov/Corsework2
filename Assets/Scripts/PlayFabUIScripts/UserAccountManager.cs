@@ -5,6 +5,7 @@ using UnityEngine.Events;
 using PlayFab;
 using PlayFab.ClientModels;
 using System.Net.Mail;
+using UnityEngine.SceneManagement;
 
 public class UserAccountManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class UserAccountManager : MonoBehaviour
     public static UnityEvent<string> OnSignInFailed = new UnityEvent<string>();
     public static UnityEvent<string> OnCreateAccountFailed = new UnityEvent<string>();
     public static UnityEvent<string> OnNicknameRetrieved = new UnityEvent<string>();
+    public static UnityEvent OnSignOutSuccess = new UnityEvent();
 
     private void Awake()
     {
@@ -98,5 +100,13 @@ public class UserAccountManager : MonoBehaviour
         {
             Debug.LogError($"Не вдалося оновити нікнейм: {error.ErrorMessage}");
         });
+    }
+
+    public void SingOut()
+    {
+        PlayFabClientAPI.ForgetAllCredentials();
+        Debug.Log("Вихід з аккаунту");
+        OnSignOutSuccess.Invoke();
+        SceneManager.LoadScene("Registration");
     }
 }
