@@ -7,19 +7,8 @@ public class CanvasSwitcher : MonoBehaviour
 {
     [SerializeField] Canvas menuCanvas;
     [SerializeField] GameObject turnCanvas;
-    
-    /*void Start()
-    {
-        if(turnCanvas != null)
-        {
-            turnCanvas.enabled = false;
-        }
+    [SerializeField] GameObject submenuCanvas;
 
-        if(menuCanvas != null) 
-        { 
-            menuCanvas.enabled = true;
-        }
-    }*/
 
     public void SwitchCanvas()
     {
@@ -32,5 +21,57 @@ public class CanvasSwitcher : MonoBehaviour
         {
             turnCanvas.SetActive(true);
         }
+    }
+
+    public void SwitchCanvasSubmenu()
+    {
+        if (menuCanvas != null)
+        {
+            menuCanvas.enabled = true;
+        }
+
+        if (turnCanvas != null)
+        {
+            turnCanvas.SetActive(false);
+        }
+
+        if(submenuCanvas != null)
+        {
+            submenuCanvas.SetActive(true);
+        }
+    }
+
+    public void SwitchCanvasBack()
+    {
+        if (menuCanvas != null)
+        {
+            menuCanvas.enabled = true;
+        }
+
+        if (turnCanvas != null)
+        {
+            turnCanvas.SetActive(false);
+        }
+
+        if (submenuCanvas != null)
+        {
+            submenuCanvas.SetActive(false);
+        }
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Вихід з гри!");
+        Application.Quit();
+
+        // Додатково, для перевірки в редакторі Unity
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
+
+    public void SignOut()
+    {
+        UserAccountManager.Instance.SingOut();
     }
 }
