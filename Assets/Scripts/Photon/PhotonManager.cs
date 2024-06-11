@@ -1,28 +1,28 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-using System.Data.Common;
-using UnityEngine.UI;
 using TMPro;
-using UnityEngine.UIElements;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] string region;
-    string nickName = PhotonNetwork.NickName;
+    private string nickName;
 
     [SerializeField] Transform content;
     [SerializeField] ListItem itemPrefab;
 
     List<RoomInfo> allRoomsInfo = new List<RoomInfo>();
 
-    void Start()
+    void Awake()
     {
         Debug.Log("Підключення до Photon...");
         PhotonNetwork.ConnectUsingSettings();
         PhotonNetwork.ConnectToRegion(region);
+    }
+
+    void Start()
+    {
         UserAccountManager.OnNicknameRetrieved.AddListener(OnNicknameRetrieved);
     }
 
@@ -31,18 +31,12 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         nickName = name;
         PhotonNetwork.NickName = nickName;
         Debug.Log("Псевдонім Photon встановлено: " + nickName);
-        ConnectToPhoton();
-    }
-
-    void ConnectToPhoton()
-    {
-        
     }
 
     public override void OnConnectedToMaster()
     {
         Debug.Log("Ви підключені до: " + PhotonNetwork.CloudRegion);
-        if(string.IsNullOrEmpty(PhotonNetwork.NickName))
+        if (string.IsNullOrEmpty(PhotonNetwork.NickName))
         {
             PhotonNetwork.NickName = "User";
             Debug.Log("Псевдонім Photon був порожнім, встановлено за замовчуванням: User");
@@ -61,9 +55,9 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     public void PlayButton()
     {
-        if (!PhotonNetwork.IsConnected) 
+        if (!PhotonNetwork.IsConnected)
         {
-            return; 
+            return;
         }
         PhotonNetwork.JoinRandomRoom();
     }
@@ -76,7 +70,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     public void CreateRoom()
     {
-        string roomName = "Room_" + Random.Range(0, 1000); 
+        string roomName = "Room_" + Random.Range(0, 1000);
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 2;
         PhotonNetwork.CreateRoom(roomName, roomOptions, TypedLobby.Default);
@@ -95,7 +89,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
-        foreach(RoomInfo info in  roomList)
+        foreach (RoomInfo info in roomList)
         {
             if (info.RemovedFromList)
             {
@@ -128,5 +122,4 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LoadLevel("Menu");
     }
-
 }
