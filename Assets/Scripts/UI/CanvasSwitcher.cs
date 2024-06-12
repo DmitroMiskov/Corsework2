@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class CanvasSwitcher : MonoBehaviour
 {
-    [SerializeField] Canvas menuCanvas;
-    [SerializeField] GameObject turnCanvas;
-    [SerializeField] GameObject submenuCanvas;
-    [SerializeField] GameObject collectionCanvas;
+    [SerializeField] private Canvas menuCanvas;
+    [SerializeField] private GameObject turnCanvas;
+    [SerializeField] private GameObject submenuCanvas;
+    [SerializeField] private GameObject collectionCanvas;
+    [SerializeField] private GameObject messages;
 
+    private bool isActive = false;
 
     public void SwitchCanvas()
     {
@@ -102,8 +104,31 @@ public class CanvasSwitcher : MonoBehaviour
 
         if (collectionCanvas != null)
         {
+            GameObject cardCollection = GameObject.Find("CardCollection");
+            if (cardCollection != null)
+            {
+                // Отримати всі дочірні об'єкти
+                foreach (Transform child in cardCollection.transform)
+                {
+                    // Знищити дочірні об'єкти
+                    Destroy(child.gameObject);
+                }
+            }
+            else
+            {
+                Debug.LogError("CardCollection object not found!");
+            }
+
+            GameObject.Find("PlayfabManager").GetComponent<CardManager>().ClearList();
+            
             collectionCanvas.SetActive(false);
         }
+    }
+
+    public void OffOnMessages() 
+    {
+        isActive = !isActive;
+        messages.gameObject.SetActive(isActive);
     }
 
     public void ExitGame()

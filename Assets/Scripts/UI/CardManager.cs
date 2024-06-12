@@ -1,29 +1,146 @@
+using PlayFab.ClientModels;
+using PlayFab;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CardManager : MonoBehaviour
 {
-    [SerializeField] PlayfabManager playfabManager;
-    [SerializeField] public string cardName = "Animals1";
-    [SerializeField] public Transform grid;
+    [SerializeField] private Transform grid;
 
-    public void AddCard()
+    private List<string> savedCardNames = new List<string>();
+
+    public string cardName = "";
+
+    private static CardManager instance;
+
+    private void Start()
     {
-        GameObject cardPrefab = Resources.Load<GameObject>(cardName);
-
-        if (cardPrefab != null)
+        // Якщо екземпляр вже існує і це не цей екземпляр, знищити цей об'єкт
+        if (instance != null && instance != this)
         {
-            GameObject newCard = Instantiate(cardPrefab, Vector3.zero, Quaternion.identity);
+            Destroy(this.gameObject);
+            return;
+        }
 
-            newCard.transform.SetParent(grid, false);
+        // В іншому випадку, зробити цей екземпляр унікальним і не знищувати його при завантаженні нових сцен
+        instance = this;
+        DontDestroyOnLoad(this.gameObject);
+        FindGrid();
+    }
 
-            playfabManager.SaveCard(cardName);
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        FindGrid();
+    }
+
+    private void FindGrid()
+    {
+        GameObject cardCollection = GameObject.Find("CardCollection");
+        if (cardCollection != null)
+        {
+            grid = cardCollection.transform;
+
+            GameObject.Find("SceneManager").GetComponent<CanvasSwitcher>().SwitchCanvasCollectionExit();
         }
         else
         {
-            Debug.LogError("Card prefab named '" + cardName + "' not found in Resources/Cards folder!");
+            Debug.LogError("CardCollection object not found with tag 'CardCollection' in the scene.");
+        }
+    }
+
+    public void AddCardToData()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest(), SaveCardData, OnGetUserDataFailure);
+    }
+
+    private void SaveCardData(GetUserDataResult result)
+    {
+        int currentCount = result.Data.Count;
+
+        var request = new UpdateUserDataRequest
+        {
+            Data = new Dictionary<string, string>
+            {
+                {"CardName" + currentCount.ToString(), cardName}
+            }
+        };
+
+        PlayFabClientAPI.UpdateUserData(request, OnSaveSuccess, OnSaveFailure);
+    }
+
+    private void OnSaveSuccess(UpdateUserDataResult result)
+    {
+        Debug.Log("Дані про карту успішно збережено на PlayFab.");
+    }
+
+    private void OnSaveFailure(PlayFabError error)
+    {
+        Debug.LogError("Помилка збереження даних про карту на PlayFab: " + error.ErrorMessage);
+    }
+
+    public void GetSavedCardData()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnGetUserDataSuccess, OnGetUserDataFailure);
+    }
+
+    private void OnGetUserDataSuccess(GetUserDataResult result)
+    {
+        int tmp = result.Data.Count;
+        for (int i = 0; i < tmp; i++) 
+        {
+            if (result.Data.TryGetValue("CardName" + i.ToString(), out UserDataRecord cardData))
+            {
+                // Оновити список збережених карток
+                savedCardNames.Add(cardData.Value);
+            }
+        }
+        CreateImagesOnGrid();
+    }
+    public void ClearList()
+    {
+        savedCardNames.Clear();
+    }
+
+    private void OnGetUserDataFailure(PlayFabError error)
+    {
+        Debug.LogError("Помилка отримання даних про картки з PlayFab: " + error.ErrorMessage);
+    }
+
+    public void CreateImagesOnGrid()
+    {
+        if (savedCardNames != null)
+        {
+            foreach (var name in savedCardNames)
+            {
+                GameObject prefab = Resources.Load<GameObject>(name);
+
+                if (prefab != null)
+                {
+                    // Створити екземпляр префаба і додати його до Grid
+                    Instantiate(prefab, grid.transform);
+                }
+                else
+                {
+                    Debug.LogWarning("Префаб з іменем " + name + " не знайдено у папці Resources/Prefabs.");
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Ім'я префаба не вказано.");
         }
     }
 }

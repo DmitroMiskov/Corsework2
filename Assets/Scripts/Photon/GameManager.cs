@@ -6,8 +6,8 @@ using Photon.Pun;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI textLastMessage;
-    [SerializeField] TMP_InputField textMessageField;
+    [SerializeField] private TextMeshProUGUI textLastMessage;
+    [SerializeField] private TMP_InputField textMessageField;
 
     private PhotonView PhotonView;
 
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     public void SendButton()
     {
-        PhotonView.RPC("Send_Data", RpcTarget.AllBuffered, PhotonNetwork.NickName,textMessageField.text);
+        PhotonView.RPC("Send_Data", RpcTarget.AllBuffered, PhotonNetwork.NickName, textMessageField.text);
     }
 
     [PunRPC]

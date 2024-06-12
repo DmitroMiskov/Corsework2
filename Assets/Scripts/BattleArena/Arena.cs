@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class Arena : MonoBehaviour
 {
-    [SerializeField] private Fighter[] _player1Template; 
+    [SerializeField] private Fighter[] _player1Template;
     [SerializeField] private Fighter[] _player2Template;
 
     private List<Fighter> _player1;
@@ -12,29 +13,27 @@ public class Arena : MonoBehaviour
     private Queue<Fighter> _readyToFight;
     private FighterSpawner _spawner;
 
-
-
     private void Awake()
     {
         _spawner = GetComponent<FighterSpawner>();
         _readyToFight = new Queue<Fighter>();
     }
 
-    public void SetPlayer1(List<Fighter> heroes) 
+    public void SetPlayer1(List<Fighter> player1) 
     {
-        _player1Template = new Fighter[heroes.Count];
-        for (int i = 0; i < heroes.Count; i++)
+        _player1Template = new Fighter[player1.Count];
+        for (int i = 0; i < player1.Count; i++)
         {
-            _player1Template[i] = heroes[i];
+            _player1Template[i] = player1[i];
         }
     }
 
-    public void SetPlayer2(List<Fighter> Enemies)
+    public void SetPlayer2(List<Fighter> player2)
     {
-        _player2Template = new Fighter[Enemies.Count];
-        for (int i = 0; i < Enemies.Count; i++) 
+        _player2Template = new Fighter[player2.Count];
+        for (int i = 0; i < player2.Count; i++) 
         {
-            _player2Template[i] = Enemies[i];
+            _player2Template[i] = player2[i];
         }
     }
 

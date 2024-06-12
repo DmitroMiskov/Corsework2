@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
-  DevAccountEmail: kodstep04@gmail.com
-  DevAccountToken: cx6zh8x5baajydtdeubzgueeej4c9ywnu1b5qdcees9i7e74s6r9i6zh3ooyg1c76un3mzh79bs7mfi4oxti3rbbzjgzo1km6qt841dg9gjdaqoa7peyot1ztqonu8zbx43kmgp9itzir8x4rzx63wepgti9werbz1urpoac6pn45j799j7rx5wc1aotuiufhxpoo88r
+  DevAccountEmail: hordmoonv2.0.1@gmail.com
+  DevAccountToken: p6hwugn44ow8kh86y59hnqgy7u33s4x3qoconjk4gotz969s6bz5brxu411ge3j47mpdw1g5hrx5t4dt7wuku6nt333ofi7fprjn9rhipctr7ysz9pcuqpwywx5b677gzm7gohhqrk4is6q7tj6fdona985cu3k1hhmd66seiumhr1674m883hdy8gjjhpanu895fedd
   AadAuthorization: 
   SelectedStudio: Corsework
-  SdkPath: Assets/PlayFabSDK
+  SdkPath: Assets/Plugins/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: D:/Virtual technologies/Corsework/Assets/PlayFabEditorExtensions/Editor/Resources/.CloudScript.js
   PanelIsShown: 0
-  curMainMenuIdx: 1
+  curMainMenuIdx: 0
   curSubMenuIdx: 0
