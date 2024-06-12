@@ -1,0 +1,1461 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'uk' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity Projects/Corsework2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54280
+Successfully changed project path to: D:/Unity Projects/Corsework2
+D:/Unity Projects/Corsework2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18152] Host "[IP] 192.168.0.129 [Port] 0 [Flags] 2 [Guid] 595918560 [EditorId] 595918560 [Version] 1048832 [Id] WindowsEditor(7,DismirePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18152] Host "[IP] 192.168.0.129 [Port] 0 [Flags] 2 [Guid] 595918560 [EditorId] 595918560 [Version] 1048832 [Id] WindowsEditor(7,DismirePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 14.20 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 1.97 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Corsework2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7600 (ID=0x7480)
+    Vendor:   ATI
+    VRAM:     8130 MB
+    Driver:   31.0.24027.1012
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/Unity Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004911 seconds.
+- Loaded All Assemblies, in  0.442 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 222 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (365ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.912 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.245 seconds
+Domain Reload Profiling: 2157ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (640ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1246ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1023ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (891ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.82 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
+Unloading 3569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (109.2 KB). Loaded Objects now: 4323.
+Memory consumption went from 156.7 MB to 156.6 MB.
+Total: 4.478900 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.250000 ms MarkObjects: 3.643100 ms  DeleteObjects: 0.198000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6688.247894 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(8c3a6c2ca4612a646a8b5d330cbdc914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(8c3a6c2ca4612a646a8b5d330cbdc914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7dd3f409b245637c57e9810874159c') in 0.001729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.284353 seconds.
+  path: Assets/Scenes/Domestication.unity
+  artifactKey: Guid(db67e014879ea7446b77b6c2e1203d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Domestication.unity using Guid(db67e014879ea7446b77b6c2e1203d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c61b2dbe7de5ea09fcf47c71c56ba') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.909394 seconds.
+  path: Assets/Scenes/Bush.unity
+  artifactKey: Guid(67d5f914acc475049a27e5037c402fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bush.unity using Guid(67d5f914acc475049a27e5037c402fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d35c6e7ba51d94bb66725245437177e') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 4.84 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.457 seconds
+Domain Reload Profiling: 1982ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1049ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (895ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.05 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 3513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (81.6 KB). Loaded Objects now: 4328.
+Memory consumption went from 145.6 MB to 145.6 MB.
+Total: 5.284100 ms (FindLiveObjects: 0.417000 ms CreateObjectMapping: 0.290300 ms MarkObjects: 4.422500 ms  DeleteObjects: 0.153400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 322.033735 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(6554382960a94a0458677269ff5d613a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(6554382960a94a0458677269ff5d613a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2c81cbd6cb1db6a8718441195d5a54') in 0.002363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047048 seconds.
+  path: Assets/Resources/Animals1.prefab
+  artifactKey: Guid(8e33bab0c2ed1a84fae88a26ebf674b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animals1.prefab using Guid(8e33bab0c2ed1a84fae88a26ebf674b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b45155e242a5a880e9e8433489e5438') in 0.036297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(0c5c9cbd3ee592944bb58dc4f6f6fd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(0c5c9cbd3ee592944bb58dc4f6f6fd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e2f3f5fd7e531027d0a274ba60414c') in 0.032218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 434
+========================================================================
+Received Import Request.
+  Time since last request: 22.034011 seconds.
+  path: Assets/RPG Starter Pack III
+  artifactKey: Guid(f1e633e9f4c0c094c806452c8d1cdb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III using Guid(f1e633e9f4c0c094c806452c8d1cdb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47c0d2ef7d2a8b01022b2642edb704c') in 0.000392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.502771 seconds.
+  path: Assets/RPG Starter Pack III/Adventurer's Anthem
+  artifactKey: Guid(28c022c06a20bdb4c8cbcc4c8960feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Adventurer's Anthem using Guid(28c022c06a20bdb4c8cbcc4c8960feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de60c09aaf95707556e269aa7ae94b7') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105064 seconds.
+  path: Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[FadeOut].wav
+  artifactKey: Guid(fe6558d745c140544a62957a1776cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[FadeOut].wav using Guid(fe6558d745c140544a62957a1776cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b05e5d8ff332ed47ab364fab878e6c') in 0.131312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[Light].wav
+  artifactKey: Guid(cd3f2a2a2e7aa8e408f82c795e4cf2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Adventurer's Anthem/Adventurer's_Anthem_[Light].wav using Guid(cd3f2a2a2e7aa8e408f82c795e4cf2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5408b1f9f807aeaf45ae84441115731') in 0.031399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.342401 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age
+  artifactKey: Guid(7db00ea0cae0b3846bb9bc3537d6c224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age using Guid(7db00ea0cae0b3846bb9bc3537d6c224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843bf1e6a561211538214af51b17d2e') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090819 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[FadeOut].wav
+  artifactKey: Guid(6b1eea452fda7644e9e93d3d6fd7e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[FadeOut].wav using Guid(6b1eea452fda7644e9e93d3d6fd7e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b265c047a78df0845bf3c00e44ddf55b') in 0.004529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005339 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Full Song].wav
+  artifactKey: Guid(a0d10098993ff6145bea4e3869f11962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Full Song].wav using Guid(a0d10098993ff6145bea4e3869f11962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f5aeb6d0e92ecea351fc7989c695ac') in 0.005191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005256 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Light].wav
+  artifactKey: Guid(353c0e5c01766244bb5ea8d1c24fbef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Light].wav using Guid(353c0e5c01766244bb5ea8d1c24fbef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e98ed64553c53784b5736b23371be2') in 0.003995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021466 seconds.
+  path: Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Medium].wav
+  artifactKey: Guid(d8202db8bb4ad404f94e98e8e676cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Starter Pack III/Legendary Age/Legendary_Age_[Medium].wav using Guid(d8202db8bb4ad404f94e98e8e676cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c891c170231a1603556718819498c22') in 0.005000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.534265 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI
+  artifactKey: Guid(7315b80b0918e6a4cbb2a177f4fddced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI using Guid(7315b80b0918e6a4cbb2a177f4fddced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b54f267e68f5fdee5f3b702fb7421c7') in 0.000392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.148269 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Scenes
+  artifactKey: Guid(c2ceef5b932c58c43ababf87c08e9a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Scenes using Guid(c2ceef5b932c58c43ababf87c08e9a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b026240f921cad6aba89d02a8bf8d9') in 0.000406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.174180 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Original artwork
+  artifactKey: Guid(b90ca33cf8e294d4283262c334f0bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Original artwork using Guid(b90ca33cf8e294d4283262c334f0bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7c49595a22d0228c9651cde53c6cf8') in 0.000419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087172 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Original artwork/additional controls.psd
+  artifactKey: Guid(f5295f5c3aec14643b9d10f178d1f591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Original artwork/additional controls.psd using Guid(f5295f5c3aec14643b9d10f178d1f591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffab18abea26029aaac18a0b1045816') in 0.065323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Original artwork/icons.psd
+  artifactKey: Guid(8d65de6fa70bfdb4eaadc8732da94d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Original artwork/icons.psd using Guid(8d65de6fa70bfdb4eaadc8732da94d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ece2f5a55ce2702ed8ba119bb070bc') in 0.030321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.406233 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Sprites
+  artifactKey: Guid(931cb38dc763e6d40ab778013893346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Sprites using Guid(931cb38dc763e6d40ab778013893346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fccba556a2f2189c3fd894409a7d96a') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.076101 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Sprites/additional controls.png
+  artifactKey: Guid(85703ee0d52ea0d479ea35a4259a0b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Sprites/additional controls.png using Guid(85703ee0d52ea0d479ea35a4259a0b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c197047b939a1dd65e38ff93f6c173') in 0.164381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Belevich/Hyper casual mobile GUI/Sprites/icons.png
+  artifactKey: Guid(a5e645d0b2507ac42807ef8e886f7d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Belevich/Hyper casual mobile GUI/Sprites/icons.png using Guid(a5e645d0b2507ac42807ef8e886f7d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb1ee186ef85c606334d353c1901cc1') in 0.360433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 11.560598 seconds.
+  path: Assets/Pluhins
+  artifactKey: Guid(8d5b6d63aa4eba5429aec511ce23821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pluhins using Guid(8d5b6d63aa4eba5429aec511ce23821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9999aff7bd8d03b5836fb9427ced6ae5') in 0.002218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.544372 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(8d5b6d63aa4eba5429aec511ce23821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(8d5b6d63aa4eba5429aec511ce23821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4424d0f8085d85bfea34c6a99ea96ed2') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.807193 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539788fea73926d38e17274c55d5d4cc') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.524442 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(09048d8eb22d88648bcac2dc4eacefc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(09048d8eb22d88648bcac2dc4eacefc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0d5b2232b25729767aa6ff358fe7e8') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 9
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 1972ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (50ms)
+				TypeCache.ScanAssembly (13ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (998ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (843ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.03 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (131.7 KB). Loaded Objects now: 4436.
+Memory consumption went from 148.5 MB to 148.4 MB.
+Total: 5.293200 ms (FindLiveObjects: 0.420100 ms CreateObjectMapping: 0.302900 ms MarkObjects: 4.256200 ms  DeleteObjects: 0.312600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.107510 seconds.
+  path: Assets/StreamingAssets/Vuforia
+  artifactKey: Guid(9a7dbe2bce94c884f8f6b60e286b1ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia using Guid(9a7dbe2bce94c884f8f6b60e286b1ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187dac9f909d0b254701fb781ecd1a2') in 0.001498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.441302 seconds.
+  path: Assets/Action RPG Music 1.6/BGM00hero.wav
+  artifactKey: Guid(b3e7e068f61b05b43b8defa9dcbbe5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM00hero.wav using Guid(b3e7e068f61b05b43b8defa9dcbbe5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975a011ad6c00f457635a3f76c69db52') in 1.239849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Action RPG Music 1.6/BGM07battle3.wav
+  artifactKey: Guid(7ea7a3636bba6c847831a5e6b95ca193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM07battle3.wav using Guid(7ea7a3636bba6c847831a5e6b95ca193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b0c1ca3f4227b5176330fa036d6c2b') in 2.380765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Action RPG Music 1.6/BGM04town4.wav
+  artifactKey: Guid(23e8faf69e5eb5748818b5db878e3186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM04town4.wav using Guid(23e8faf69e5eb5748818b5db878e3186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4dc0104478fc0ffff2cf9080f27d59') in 1.453819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Action RPG Music 1.6/BGM02evil.wav
+  artifactKey: Guid(532daca5960c6eb429376d646f93e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM02evil.wav using Guid(532daca5960c6eb429376d646f93e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a15a8e35e5c644ad60d39caab0f3ee') in 0.901284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Action RPG Music 1.6/BGM07battle4.wav
+  artifactKey: Guid(c091f82a317088547b1e89353eb32e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM07battle4.wav using Guid(c091f82a317088547b1e89353eb32e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d1673dbf1e0845dc0a7425edfae861') in 0.551808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Action RPG Music 1.6/BGM07battle1.wav
+  artifactKey: Guid(031bbb98a7e1a3c4684afe0c45789da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM07battle1.wav using Guid(031bbb98a7e1a3c4684afe0c45789da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa09cb78bf69fb18bf62bc8763e81dfe') in 0.698963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Action RPG Music 1.6/BGM08boss2.wav
+  artifactKey: Guid(0b8e5bc1987eeb54896c6b398776db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM08boss2.wav using Guid(0b8e5bc1987eeb54896c6b398776db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4330f600626f900d84b9094dd0b3f4fc') in 1.439428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Action RPG Music 1.6/BGM06adventure1.wav
+  artifactKey: Guid(f08f484b59f51e14880e1b253556907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.6/BGM06adventure1.wav using Guid(f08f484b59f51e14880e1b253556907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd232355b655a8025d57dabddeeffdbde') in 1.413198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.087193 seconds.
+  path: Assets/Music
+  artifactKey: Guid(6a332e7f46c17d047994ad569529920e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music using Guid(6a332e7f46c17d047994ad569529920e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0cd151d1310a9052162a5283125088') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.246121 seconds.
+  path: Assets/BiteMe Games
+  artifactKey: Guid(9b36b4c3298e2974fb015dd3c3b13af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiteMe Games using Guid(9b36b4c3298e2974fb015dd3c3b13af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758908748a0f5f9956612ccb5e119d1a') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.911079 seconds.
+  path: Assets/BiteMe Games/Chinese Music
+  artifactKey: Guid(db9b51e0cd070bb47ad15eaa25db4e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BiteMe Games/Chinese Music using Guid(db9b51e0cd070bb47ad15eaa25db4e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d78f3bb3eae9df131de05d0d11e8ac') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.565 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.336 seconds
+Domain Reload Profiling: 1901ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1337ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (926ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (773ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (80.3 KB). Loaded Objects now: 4441.
+Memory consumption went from 149.5 MB to 149.4 MB.
+Total: 4.664200 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.297800 ms MarkObjects: 3.810100 ms  DeleteObjects: 0.122200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.919969 seconds.
+  path: Assets/Pictures
+  artifactKey: Guid(79e0d2e8b3534bf45a60cd0d1bfe4bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures using Guid(79e0d2e8b3534bf45a60cd0d1bfe4bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8aaba7ec1869339d863bee559b2310') in 0.001587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.177382 seconds.
+  path: Assets/Pictures/Arena.png
+  artifactKey: Guid(21543ba78fb15bb43bba01430acee379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/Arena.png using Guid(21543ba78fb15bb43bba01430acee379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f57a953b2db7293eeb7ae60beb0f9fc') in 0.073524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.006788 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd115759da9d9af0473e0083721df56') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.134072 seconds.
+  path: Assets/Bush
+  artifactKey: Guid(059b4d3c514952b4c88920f69ff3a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bush using Guid(059b4d3c514952b4c88920f69ff3a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8df3ef55106b931605187ce1a09c8ee') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072437 seconds.
+  path: Assets/Bush/Bush.fbx
+  artifactKey: Guid(efb968a9a353e984d93197dbc1a2fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bush/Bush.fbx using Guid(efb968a9a353e984d93197dbc1a2fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e809a3aa141d910489ed365e8ac2b862') in 0.077465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 20.973827 seconds.
+  path: Assets/Rendering
+  artifactKey: Guid(05fe3688cb6714d4eb62dc94486a0609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering using Guid(05fe3688cb6714d4eb62dc94486a0609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffef9923fffeb5a94174da7fdd4a77a') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.237 seconds
+Refreshing native plugins compatible for Editor in 4.15 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.624 seconds
+Domain Reload Profiling: 19863ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (902ms)
+		LoadAssemblies (777ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (18627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (992ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.34 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
+Unloading 5422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 145 unused Assets / (7.0 MB). Loaded Objects now: 6305.
+Memory consumption went from 217.6 MB to 210.6 MB.
+Total: 8.979800 ms (FindLiveObjects: 0.628700 ms CreateObjectMapping: 0.556400 ms MarkObjects: 4.147500 ms  DeleteObjects: 3.646200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186.371824 seconds.
+  path: Assets/Rendering/URP_Asset_Renderer.asset
+  artifactKey: Guid(da626f6a218e2cf4f92f59aa67131ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/URP_Asset_Renderer.asset using Guid(da626f6a218e2cf4f92f59aa67131ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088eee11dededb2ae06525918ae67888') in 0.046897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 87ba2081ddeb0054e899ed9c6fa5bf53
+Refreshing native plugins compatible for Editor in 5.23 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.04 ms.
+Unloading 134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (4.7 MB). Loaded Objects now: 6387.
+Memory consumption went from 140.3 MB to 135.5 MB.
+Total: 8.142900 ms (FindLiveObjects: 0.582600 ms CreateObjectMapping: 0.434700 ms MarkObjects: 4.513200 ms  DeleteObjects: 2.611500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.121528 seconds.
+  path: Assets/Rendering/URP_Asset.asset
+  artifactKey: Guid(87ba2081ddeb0054e899ed9c6fa5bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/URP_Asset.asset using Guid(87ba2081ddeb0054e899ed9c6fa5bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf539e90823098b0ebb7b492032e9194') in 0.000873 seconds
+Number of updated asset objects reloaded before import = 2
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.593115 seconds.
+  path: Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef
+  artifactKey: Guid(a738238285a7a8246af046cbf977522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef using Guid(a738238285a7a8246af046cbf977522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef13b1ee6b735a0cde4c02ea67cf615c') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.969520 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(d56a30e902cff1341921e5d5d4864ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(d56a30e902cff1341921e5d5d4864ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea69898890da4be347791fbef6c1e86') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.760 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.835 seconds
+Domain Reload Profiling: 2595ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (1021ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.94 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
+Unloading 5391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (3.2 MB). Loaded Objects now: 6424.
+Memory consumption went from 218.8 MB to 215.6 MB.
+Total: 7.446700 ms (FindLiveObjects: 0.665500 ms CreateObjectMapping: 0.551800 ms MarkObjects: 3.768900 ms  DeleteObjects: 2.459400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.027578 seconds.
+  path: Assets/Arena
+  artifactKey: Guid(ffa0e66573ab5814f897e2bb7cbd0865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arena using Guid(ffa0e66573ab5814f897e2bb7cbd0865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48483701ce166dfe97d34ece21689ff8') in 0.002196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.636658 seconds.
+  path: Assets/Arena/Scenes
+  artifactKey: Guid(c395b3c4899651c41bbb4772e5ebc215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arena/Scenes using Guid(c395b3c4899651c41bbb4772e5ebc215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb34a661511f7b7449e56580673170') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.049464 seconds.
+  path: Assets/Arena/Scenes/Arena.unity
+  artifactKey: Guid(24e963c2083033f4ea31e43677fb6b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arena/Scenes/Arena.unity using Guid(24e963c2083033f4ea31e43677fb6b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ff6488a1489ba8ab4a70efc0ff05e7') in 0.000426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.679583 seconds.
+  path: Assets/Arena/Scripts
+  artifactKey: Guid(722d083467b6c464dbca44f758c8b237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arena/Scripts using Guid(722d083467b6c464dbca44f758c8b237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51903135a16b3987fb85d08f3ea0a90') in 0.000419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.790025 seconds.
+  path: Assets/Arena/Scripts/BattleArena
+  artifactKey: Guid(36757fb4115123649b74a42a82c0d3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arena/Scripts/BattleArena using Guid(36757fb4115123649b74a42a82c0d3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65759d45ec2e605fcf67456c31ea7039') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.111362 seconds.
+  path: Assets/Arena/Scripts/BattleArena/FighterMove.cs
+  artifactKey: Guid(348526516fb877b4d89c9439cd6d7a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arena/Scripts/BattleArena/FighterMove.cs using Guid(348526516fb877b4d89c9439cd6d7a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1c6b0e06842f50bd8b5affdea47825') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.289 seconds
+Refreshing native plugins compatible for Editor in 4.15 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking' already exists (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Demos' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/Plugins/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFabSDKEditor' already exists (Assets/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/Plugins/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFab' already exists (Assets/PlayFabSDK/PlayFab.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PlayFabEditorExtensions' already exists (Assets/Plugins/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonRealtime' already exists (Assets/Plugins/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Editor' already exists (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Plugins/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonWebSocket' already exists (Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonUnityNetworking.Utilities.Culling.Editor' already exists (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Plugins/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PhotonChat' already exists (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoHubEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Plugins/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+Assembly with name 'PunDemos.DemoSlotcarEditor' already exists (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.851 seconds
+Domain Reload Profiling: 21139ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (1012ms)
+		LoadAssemblies (1018ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (19851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (961ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
