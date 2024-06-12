@@ -49,5 +49,12 @@ public class UISignIn : MonoBehaviour
     public void SignIn()
     {
         UserAccountManager.Instance.SignIn(userName, password);
+
+        if (PlayfabManager.Instance == null)
+        {
+            Debug.LogError("PlayFabManager Instance не існує. Переконайтесь, що об'єкт PlayFabManager знаходиться в сцені");
+            return;
+        }
+        PlayfabManager.Instance.LoadCard();
     }
 }
