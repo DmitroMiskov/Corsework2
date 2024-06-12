@@ -39,3 +39,4 @@ sysinfo.txt
 # Crashlytics generated file
 Assets/StreamingAssets/crashlytics-build.properties
 Packages/com.ptc.vuforia.engine-10.22.5.tgz
+*.log
