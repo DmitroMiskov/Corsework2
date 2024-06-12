@@ -1,3 +1,5 @@
+using PlayFab.ClientModels;
+using PlayFab;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,25 +7,74 @@ using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
 {
-    [SerializeField] PlayfabManager playfabManager;
-    [SerializeField] public string cardName = "Animals1";
-    [SerializeField] public Transform grid;
+    [SerializeField] private Transform grid;
 
-    public void AddCard()
+
+    private List<string> savedCardNames = new List<string>();
+
+    void Awake()
     {
-        GameObject cardPrefab = Resources.Load<GameObject>(cardName);
+        DontDestroyOnLoad(gameObject);
+    }
 
-        if (cardPrefab != null)
+    public void SaveCardData(string cardName)
+    {
+        var request = new UpdateUserDataRequest
         {
-            GameObject newCard = Instantiate(cardPrefab, Vector3.zero, Quaternion.identity);
+            Data = new Dictionary<string, string>
+            {
+                {"CardName", cardName},
+            }
+        };
 
-            newCard.transform.SetParent(grid, false);
+        PlayFabClientAPI.UpdateUserData(request, OnSaveSuccess, OnSaveFailure);
+    }
 
-            playfabManager.SaveCard(cardName);
+    private void OnSaveSuccess(UpdateUserDataResult result)
+    {
+        Debug.Log("Дані про карту успішно збережено на PlayFab.");
+    }
+
+    private void OnSaveFailure(PlayFabError error)
+    {
+        Debug.LogError("Помилка збереження даних про карту на PlayFab: " + error.ErrorMessage);
+    }
+
+    public void GetSavedCardData()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnGetUserDataSuccess, OnGetUserDataFailure);
+    }
+
+    private void OnGetUserDataSuccess(GetUserDataResult result)
+    {
+        if (result.Data.TryGetValue("CardName", out UserDataRecord cardData))
+        {
+            // Оновити список збережених карток
+            savedCardNames.Add(cardData.Value);
         }
-        else
+    }
+
+    private void OnGetUserDataFailure(PlayFabError error)
+    {
+        Debug.LogError("Помилка отримання даних про картки з PlayFab: " + error.ErrorMessage);
+    }
+
+    public void DisplaySavedCards()
+    {
+        foreach (string cardName in savedCardNames)
         {
-            Debug.LogError("Card prefab named '" + cardName + "' not found in Resources/Cards folder!");
+            // Знайти префаб за іменем картки
+            GameObject prefab = Resources.Load<GameObject>(cardName);
+
+            if (prefab != null)
+            {
+                // Створити екземпляр префаба і додати його до Grid
+                Instantiate(prefab, grid);
+            }
+            else
+            {
+                Debug.LogWarning("Префаб з іменем " + cardName + " не знайдено у папці Resources/Prefabs.");
+            }
         }
     }
 }
