@@ -8,6 +8,7 @@ public class CanvasSwitcher : MonoBehaviour
     [SerializeField] Canvas menuCanvas;
     [SerializeField] GameObject turnCanvas;
     [SerializeField] GameObject submenuCanvas;
+    [SerializeField] GameObject collectionCanvas;
 
 
     public void SwitchCanvas()
@@ -56,6 +57,52 @@ public class CanvasSwitcher : MonoBehaviour
         if (submenuCanvas != null)
         {
             submenuCanvas.SetActive(false);
+        }
+    }
+
+    public void SwitchCanvasCollection()
+    {
+        if (menuCanvas != null)
+        {
+            menuCanvas.enabled = false;
+        }
+
+        if (turnCanvas != null)
+        {
+            turnCanvas.SetActive(false);
+        }
+
+        if (submenuCanvas != null)
+        {
+            submenuCanvas.SetActive(false);
+        }
+
+        if (collectionCanvas != null)
+        {
+            collectionCanvas.SetActive(true);
+        }
+    }
+
+    public void SwitchCanvasCollectionExit()
+    {
+        if (menuCanvas != null)
+        {
+            menuCanvas.enabled = true;
+        }
+
+        if (turnCanvas != null)
+        {
+            turnCanvas.SetActive(false);
+        }
+
+        if (submenuCanvas != null)
+        {
+            submenuCanvas.SetActive(false);
+        }
+
+        if (collectionCanvas != null)
+        {
+            collectionCanvas.SetActive(false);
         }
     }
 
