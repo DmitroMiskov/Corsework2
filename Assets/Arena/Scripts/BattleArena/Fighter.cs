@@ -45,12 +45,12 @@ public class Fighter : MonoBehaviour
 
         _maxHP = _health;
         _def = playerParams.DEF;
-        _ui.SetMaxHp(_maxHP);
+        //_ui.SetMaxHp(_maxHP);
     }
 
     private void Start()
     {
-        _ui.UpdateHealth(_health);
+        //_ui.UpdateHealth(_health);
     }
 
     public void TurnMeter(bool test)
@@ -80,7 +80,7 @@ public class Fighter : MonoBehaviour
         var damage_after_defense = damage * (1 - _def / 100);
         _health -= damage_after_defense;
 
-        _ui.UpdateHealth(_health);
+        //_ui.UpdateHealth(_health);
         if (_health <= 0) 
         {
             Die();
