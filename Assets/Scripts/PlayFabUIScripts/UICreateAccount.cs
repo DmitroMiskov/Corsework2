@@ -1,3 +1,5 @@
+using PlayFab.ClientModels;
+using PlayFab;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -56,5 +58,33 @@ public class UICreateAccount : MonoBehaviour
     {
         Debug.Log($"Створення облікового запису з ім'ям користувача: {userName}, електронною поштою: {emailAddress}");
         UserAccountManager.Instance.CreateAccount(userName, emailAddress, password);
+        AddValueToData();
+    }
+
+    public void AddValueToData()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest(), SaveCardData, OnSaveFailure);
+    }
+
+    private void SaveCardData(GetUserDataResult result)
+    {
+        var request = new UpdateUserDataRequest
+        {
+            Data = new Dictionary<string, string>
+            {
+                {"Wins", 0.ToString()}
+            }
+        };
+        PlayFabClientAPI.UpdateUserData(request, OnSaveSuccess, OnSaveFailure);
+    }
+
+    private void OnSaveSuccess(UpdateUserDataResult result)
+    {
+        Debug.Log("Дані про value успішно збережено на PlayFab.");
+    }
+
+    private void OnSaveFailure(PlayFabError error)
+    {
+        Debug.LogError("Помилка збереження даних про value на PlayFab: " + error.ErrorMessage);
     }
 }

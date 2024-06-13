@@ -109,14 +109,15 @@ public class CardManager : MonoBehaviour
         }
         CreateImagesOnGrid();
     }
-    public void ClearList()
-    {
-        savedCardNames.Clear();
-    }
 
     private void OnGetUserDataFailure(PlayFabError error)
     {
         Debug.LogError("Помилка отримання даних про картки з PlayFab: " + error.ErrorMessage);
+    }
+
+    public void ClearList()
+    {
+        savedCardNames.Clear();
     }
 
     public void CreateImagesOnGrid()

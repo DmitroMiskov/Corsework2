@@ -6,13 +6,12 @@ using TMPro;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] string region;
-    private string nickName;
-
-    [SerializeField] Transform content;
-    [SerializeField] ListItem itemPrefab;
+    [SerializeField] private string region;
+    [SerializeField] private string nickName;
 
     List<RoomInfo> allRoomsInfo = new List<RoomInfo>();
+
+    private static PhotonManager instance;
 
     void Awake()
     {
@@ -24,6 +23,15 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     void Start()
     {
         UserAccountManager.OnNicknameRetrieved.AddListener(OnNicknameRetrieved);
+
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     private void OnNicknameRetrieved(string name)

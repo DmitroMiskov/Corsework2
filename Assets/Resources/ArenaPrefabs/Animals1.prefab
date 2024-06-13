@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8955144951988871965}
   - component: {fileID: 4677683050931530733}
   m_Layer: 0
-  m_Name: Animal1
+  m_Name: Animals1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 348526516fb877b4d89c9439cd6d7a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headPos: {fileID: 7683753634234923151}
 --- !u!114 &8955144951988871965
 MonoBehaviour:
   m_ObjectHideFlags: 0

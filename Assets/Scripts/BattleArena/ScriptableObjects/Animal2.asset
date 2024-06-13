@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharRoles: 0
   Health: 400
-  ATK: 50
+  ATK: 200
   DEF: 30
   Speed: 20
   CritChance: 10

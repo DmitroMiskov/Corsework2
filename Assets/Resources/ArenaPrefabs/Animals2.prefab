@@ -1615,7 +1615,7 @@ GameObject:
   - component: {fileID: 8521862296190766963}
   - component: {fileID: 6825941642139229232}
   m_Layer: 0
-  m_Name: Animal2
+  m_Name: Animals2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

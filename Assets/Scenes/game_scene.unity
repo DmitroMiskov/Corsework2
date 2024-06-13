@@ -1184,10 +1184,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32717d320f38db4293725992612ce64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player1Template:
-  - {fileID: 2118545383408280539, guid: 07adeb5a6f1607d44b48997055d97a9c, type: 3}
+  _player1Template: []
   _player2Template:
   - {fileID: 2118545383408280539, guid: 07adeb5a6f1607d44b48997055d97a9c, type: 3}
+  player2Cam: {fileID: 426375027}
+  fighterData: {fileID: 0}
 --- !u!4 &549710248
 Transform:
   m_ObjectHideFlags: 0
@@ -1245,12 +1246,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 549710245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7a7969e7d8c814ba15d803ac35f712, type: 3}
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fighterData: {fileID: 0}
-  _camera: {fileID: 0}
-  _arena: {fileID: 0}
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 3
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &550991659
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,7 +3759,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2063004957}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PhotonManager, Assembly-CSharp
         m_MethodName: LeaveButton
         m_Mode: 1
@@ -5941,11 +5949,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2063004956}
-  - component: {fileID: 2063004957}
   - component: {fileID: 2063004959}
   - component: {fileID: 2063004958}
   m_Layer: 0
-  m_Name: PhotonManager
+  m_Name: MessageManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5966,21 +5973,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2063004957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063004955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec24f8a7dd327354086c10d737fdb0df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  region: 
-  content: {fileID: 0}
-  itemPrefab: {fileID: 0}
 --- !u!114 &2063004958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6632,10 +6624,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 889230521}
   - {fileID: 549710248}
-  - {fileID: 426375028}
   - {fileID: 1792165644}
   - {fileID: 1161316189}
   - {fileID: 1168563656}
+  - {fileID: 426375028}
   - {fileID: 518803881}
   - {fileID: 1589593841}
   - {fileID: 1179612001}
